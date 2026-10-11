@@ -22,11 +22,11 @@ The first line of `00-instructions` names the format version, for example `osmar
 my-osmarks-profile/
 ├── 00-instructions.md   Instructions for any AI (fixed template)
 ├── 01-who-i-am.md       Main thread, identity, long-term goals: things still true in three months
-├── 02-my-system.md      What knocks me off track and the countermeasure, commands, how I like to be pushed, decisions
+├── 02-my-system.md      My tools (main AI, where the profile lives, reminders, each with why), AI habits learned, what knocks me off track and the countermeasure, commands, decisions
 ├── 03-idea-lot.md       Parked ideas
 ├── 04-log/
 │   └── 2026-10.md       One file per month, entries by date
-├── 05-marks/            One file per mark card
+├── 05-marks/            One file per mark: what was done, the witness, status (to confirm / confirmed with link)
 ├── 06-between-us.md     How they like the companion to talk, running jokes, shared moments
 └── 07-privacy.md        Ownership, export, deletion, sensitive-content rules
 ```

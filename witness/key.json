@@ -1,0 +1,1 @@
+{"alg":"Ed25519","public_jwk":{"kty":"OKP","key_ops":["verify"],"alg":"EdDSA","ext":true,"crv":"Ed25519","x":"qP9R7n85PweyRor-a1q_uoMSEMyIV8Ki3EsxptW-kkk"}}

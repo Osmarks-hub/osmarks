@@ -1,0 +1,52 @@
+name: witness
+# Once a day, copy the public key and the public log of the osmarks site into this
+# repository, check every signature with the open verifier, and refuse any change
+# that rewrites history. Git keeps the timestamps, so anyone can see what the log
+# said on any day, independently of osmarks.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: witness
+jobs:
+  witness:
+    runs-on: ubuntu-latest
+    env:
+      SITE: https://osmarks.marks-90a.workers.dev
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Fetch key and log
+        run: |
+          mkdir -p witness
+          curl -fsS "$SITE/key" -o /tmp/key.json
+          curl -fsS "$SITE/log" -o /tmp/log.json
+          jq -e '.public_jwk.x' /tmp/key.json > /dev/null
+          jq -e '.entries | type == "array"' /tmp/log.json > /dev/null
+      - name: Check signatures with the open verifier
+        run: cargo run --quiet --release --manifest-path verifier/Cargo.toml -- log /tmp/log.json --key /tmp/key.json
+      - name: Check nothing old was changed or removed
+        run: |
+          if [ -f witness/log.json ]; then
+            old=$(jq '.entries | length' witness/log.json)
+            new=$(jq '.entries | length' /tmp/log.json)
+            if [ "$new" -lt "$old" ]; then echo "The log got shorter ($old -> $new). Refusing."; exit 1; fi
+            if ! diff <(jq -S '.entries' witness/log.json) <(jq -S --argjson n "$old" '.entries[:$n]' /tmp/log.json) > /dev/null; then
+              echo "Earlier log entries were changed. Refusing."; exit 1
+            fi
+          fi
+          if [ -f witness/key.json ] && ! diff <(jq -S . witness/key.json) <(jq -S . /tmp/key.json) > /dev/null; then
+            echo "The public key changed. A key change must be announced in spec/ and recorded by hand. Refusing."; exit 1
+          fi
+          cp /tmp/key.json witness/key.json
+          cp /tmp/log.json witness/log.json
+      - name: Commit if anything changed
+        run: |
+          git add witness
+          if git diff --cached --quiet; then echo "No change today."; exit 0; fi
+          git config user.name "osmarks witness"
+          git config user.email "witness@users.noreply.github.com"
+          git commit -m "witness: $(jq '.entries | length' witness/log.json) log entries on $(date -u +%F)"
+          git push

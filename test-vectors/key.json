@@ -1,0 +1,13 @@
+{
+  "alg": "Ed25519",
+  "public_jwk": {
+    "key_ops": [
+      "verify"
+    ],
+    "ext": true,
+    "alg": "Ed25519",
+    "crv": "Ed25519",
+    "x": "a8a7ymnAPx1FHgUfSmQ9F2uT6E3PCsSegjMIFCAtMag",
+    "kty": "OKP"
+  }
+}

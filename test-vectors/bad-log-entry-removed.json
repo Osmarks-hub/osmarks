@@ -1,0 +1,19 @@
+{
+  "description": "osmarks public append-only log. Each entry signs `mark_hash|prev_hash|created_at` with the key at /key. Contains no personal data.",
+  "entries": [
+    {
+      "seq": 1,
+      "mark_hash": "d98fddb554cf3cdf453da74f817a3038607d41d2bbc89d3231949eb36727cc24",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "created_at": 1791291600000,
+      "signature": "jIwjEESBbcuC0gQmVBrzhYgsPuRS--HUL0jbpMhEnzDWo6-c7SPqykJxLg1ApxPfSldMOaeRKW8A65O7yKRkCQ"
+    },
+    {
+      "seq": 3,
+      "mark_hash": "92aeb7c51754d4a91cf88c4a508e35b7a3f07185e5780178ac62828a35d7d05c",
+      "prev_hash": "527701963ac7dd5a419fb29d3d5199c207c5d38310648c03d07e8a58d3a7fa69",
+      "created_at": 1791298800000,
+      "signature": "o00h_Z9iicpmIDJPCfPeMbjgCJoGEY7g5O8JO7c72w4179aA0SDLN_ndXp_TIrv4JqdWU3SVtj_9XbW6CVajDQ"
+    }
+  ]
+}

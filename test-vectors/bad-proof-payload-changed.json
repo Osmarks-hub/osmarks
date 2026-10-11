@@ -1,0 +1,10 @@
+{
+  "payload": "{\"v\":1,\"mark\":\"00000000-0000-4000-8000-000000000002\",\"by\":\"Example Ben\",\"statement\":\"Translated the onboarding guide into French\",\"for\":\"Example Co.\",\"promised\":null,\"delivered\":\"2026-10-03\",\"work\":null,\"verdict\":\"amended\",\"correction\":\"It was Spanish and Portuguese.\",\"confirmer\":\"company-email\",\"confirmed_at\":\"2026-10-06T13:59:59.000Z\"}",
+  "mark_hash": "527701963ac7dd5a419fb29d3d5199c207c5d38310648c03d07e8a58d3a7fa69",
+  "log_seq": 2,
+  "prev_hash": "d98fddb554cf3cdf453da74f817a3038607d41d2bbc89d3231949eb36727cc24",
+  "logged_at": 1791295200000,
+  "signature": "dchmZ90sUw7-12dpOu8WS2ZoQXXrhCeFXYNc8Cc8o1Hh0qKZ1ChmPssHeK_pGKg9izkCr9fSHdiUAwu2yOuaDA",
+  "signed_message": "527701963ac7dd5a419fb29d3d5199c207c5d38310648c03d07e8a58d3a7fa69|d98fddb554cf3cdf453da74f817a3038607d41d2bbc89d3231949eb36727cc24|1791295200000",
+  "public_key": "/key"
+}

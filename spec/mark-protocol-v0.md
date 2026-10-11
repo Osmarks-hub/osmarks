@@ -80,10 +80,21 @@ The reference implementation is `verifier/` in this repository. Test vectors, in
 
 ## 6. Keeping verification possible without osmarks
 
-Anyone may copy and mirror the key and the log. With a copy of both, every mark can still be verified even if osmarks disappears. Planned: periodic anchoring of the log's latest fingerprint to a public blockchain as a timestamp (no token is involved).
+Anyone may copy and mirror the key and the log. With a copy of both, every mark can still be verified even if osmarks disappears.
 
-## 7. Open questions
+**The witness.** This repository keeps its own copy in `witness/`. Once a day an automated job (`.github/workflows/witness.yml`) fetches `/key` and `/log`, checks every signature with the open verifier, and commits the copy. It refuses to record a log that got shorter, a log whose earlier entries changed, or a key that changed without notice. Git history then shows what the log said on each day, kept by GitHub rather than by osmarks.
 
-- Key rotation: how a new key is announced and how old marks stay verifiable.
+Planned: periodic anchoring of the log's latest fingerprint to a public blockchain as a timestamp (no token is involved).
+
+## 7. Keys
+
+- A key signs from the moment it is published at `/key` until it is retired. Marks signed by a retired key stay valid: verify them with the key that `witness/` recorded at the time.
+- A new key is announced here, in `spec/keys.md`, with the date and the reason, before or on the day it starts signing. The witness refuses a key change until that note exists and the copy in `witness/key.json` is updated by hand in the same commit.
+- Retiring a key never deletes or rewrites log entries.
+- Record so far: the first key (generated 2026-10-10) was retired before it signed any mark in the public log, because it had been exposed during development. The current key was published on 2026-10-11 with an empty log.
+
+## 8. Open questions
+
+- A log format that can hold entries signed by more than one key.
 - Publishing the payload as a W3C Verifiable Credential in addition to the current form.
 - A canonical serialization, so that future implementations can rebuild the payload instead of storing it verbatim.

@@ -1,0 +1,4 @@
+{
+  "description": "osmarks public append-only log. Each entry signs `mark_hash|prev_hash|created_at` with the key at /key. Contains no personal data.",
+  "entries": []
+}

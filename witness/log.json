@@ -581,9 +581,105 @@
       "prev_hash": "d41bdb5635ba56fe43c116b6d61f4957ce327929214cdff18c309ccfb328079f",
       "created_at": 1792379252672,
       "signature": "p4BNQZJ5LGKAk5dEIOWN4Eggm2g1gY3o9-YtAoK_r0IoISz14wPLKDVc560xCOlOYnJaqfznEAsPk5jsCkTsAQ"
+    },
+    {
+      "seq": 84,
+      "mark_hash": "9776dcbf4fa6d0d09cbf4d7d9d7df58ecb0b3fa5b82a54332c7922f952cb3611",
+      "prev_hash": "af79f76b9ad7428399a5074f798ceec29059291b18795954bac108232bf09edd",
+      "created_at": 1792415252883,
+      "signature": "_Bed0EXX9v10Nxnm7Sc5hyWZCNMN8b154OWVbpxVhEU7ivGjDLGQQLBfm5ktevRk7pDgOJ-pvzkLv8zFx1QsAg"
+    },
+    {
+      "seq": 85,
+      "mark_hash": "3263b814139b9912f2ab70c01f0a329c4ed308900f2cb2730aae8fb600077b96",
+      "prev_hash": "9776dcbf4fa6d0d09cbf4d7d9d7df58ecb0b3fa5b82a54332c7922f952cb3611",
+      "created_at": 1792418854040,
+      "signature": "KzvO1rHOAmckDKkPSgkYx1q-mKH5OVfxa0mbf2Tkx_8ZlbFXJs31zNoRfMaiJY1rMpJLQAH1wZsg5iwICyBZCA"
+    },
+    {
+      "seq": 86,
+      "mark_hash": "9a81d7231de2b2a64c019c13fd761c627d9a7cf51cd578e71d10db004ed2b46c",
+      "prev_hash": "3263b814139b9912f2ab70c01f0a329c4ed308900f2cb2730aae8fb600077b96",
+      "created_at": 1792418916869,
+      "signature": "_dWYOraSFlGiXz-qXj_YFjGFGnLklTZNq0SJ0Q48677BzvL9B6H8ls0ydT2lRhw67bsX53qGuYOc5c0zXRG4AQ"
+    },
+    {
+      "seq": 87,
+      "mark_hash": "a9c08152befcfa6a08e69400096a92b7bc44f545f534ec00b4ac94044447bd11",
+      "prev_hash": "9a81d7231de2b2a64c019c13fd761c627d9a7cf51cd578e71d10db004ed2b46c",
+      "created_at": 1792433260721,
+      "signature": "84mv-rjlR3636owfrtjYqXgfmFRKdr6J57ZkFW1HTNFbNAT3Mergmbx2uAd8zK7TmL8ef3oKfyV-kU-O6poGAA"
+    },
+    {
+      "seq": 88,
+      "mark_hash": "9458acfc2452e1119c5f79511e30695e0c906558dedb7cd658a3d32608ac921f",
+      "prev_hash": "a9c08152befcfa6a08e69400096a92b7bc44f545f534ec00b4ac94044447bd11",
+      "created_at": 1792436854135,
+      "signature": "FECw7LoH1xMbGzHzcmpD8R4CB-2rb36wfY7f9JRqT9LKF-LM5ZlhZX81GsSkpCiv0fAP74MiohTRuA8X264LCQ"
+    },
+    {
+      "seq": 89,
+      "mark_hash": "e4695c5bf9032613cd102bb03cff4d018927691b0c30bf4eba7145152827244f",
+      "prev_hash": "9458acfc2452e1119c5f79511e30695e0c906558dedb7cd658a3d32608ac921f",
+      "created_at": 1792436916967,
+      "signature": "E59Zu-LAtl_1mSBMZFlv4_VuUKjcHB5Olq-IeiWngGhDZ2LPrS4_QVq7W2QDqv2YOUPGRKLJjbKJF4QAGpDiDA"
+    },
+    {
+      "seq": 90,
+      "mark_hash": "58b7d27010b4d69919218e9e422370c735a0d50413a2cefcb4c4792fdcb51ccf",
+      "prev_hash": "e4695c5bf9032613cd102bb03cff4d018927691b0c30bf4eba7145152827244f",
+      "created_at": 1792444052244,
+      "signature": "FdUe9Q2eWgHu1874hwshiFtS9N5EywznqbGN02nOF0469Rsk5oF8fQrfESIJnbBuhcJzV_parjKJndcxtBrsDw"
+    },
+    {
+      "seq": 91,
+      "mark_hash": "ab1bf707e2ea41862afee3a4f6be66d76f84e5110ac2b9e52ff937f19f1311f0",
+      "prev_hash": "58b7d27010b4d69919218e9e422370c735a0d50413a2cefcb4c4792fdcb51ccf",
+      "created_at": 1792444114474,
+      "signature": "SPocQWWAuD9SNxZKIz7oj3qmJrTePSXMXoEIrbsUAgMT_CaG9qejAjNMPBs4FmZkOFQkSt8gYGxKVqndnIVcCQ"
+    },
+    {
+      "seq": 92,
+      "mark_hash": "f1b014db8b2c619821ebff56b2ec736b9272bd8913cb99b2b9c7a1e51f9ee2ea",
+      "prev_hash": "ab1bf707e2ea41862afee3a4f6be66d76f84e5110ac2b9e52ff937f19f1311f0",
+      "created_at": 1792447653573,
+      "signature": "ApRJ9PZCbN31pRtKSHHl1RpagSsHvt6jbR5fRLgU8Db0DcdXj2_-xzB322LsPaASDmeCJ2ejhRdk2OCpgpBrDw"
+    },
+    {
+      "seq": 93,
+      "mark_hash": "57cb026ecaeee6fbf50db721600fc351168bd23d9ad40ec3e529e4c2f809307a",
+      "prev_hash": "f1b014db8b2c619821ebff56b2ec736b9272bd8913cb99b2b9c7a1e51f9ee2ea",
+      "created_at": 1792447715602,
+      "signature": "yP_jffIRzCEUS9WfyN4_P_SZOerr7QiYV4bZaPTHEEWdPkEFh7X2cu78GT4d22E8zNS86zp8ErN0rbdS32pvDg"
+    },
+    {
+      "seq": 94,
+      "mark_hash": "40e15d32b86ea58dca68170dbd8113f4ee8a7027321f70b6b0829b1cdae11fdb",
+      "prev_hash": "57cb026ecaeee6fbf50db721600fc351168bd23d9ad40ec3e529e4c2f809307a",
+      "created_at": 1792451251705,
+      "signature": "xtLafJjT8sx_I6R9QlFR7OWD8EWt3q6-lvluMqMqJtLwqMaBdk18g4V16GRKJCJr23Vg8ojAdBoAhpr1U5aZCg"
+    },
+    {
+      "seq": 95,
+      "mark_hash": "f4c0801e4b984fcc66dea24997f6c7bafadaeb46f94dfd5830530fadf88a5c0f",
+      "prev_hash": "40e15d32b86ea58dca68170dbd8113f4ee8a7027321f70b6b0829b1cdae11fdb",
+      "created_at": 1792454853263,
+      "signature": "xBchxs81d94j45_hqdEN-iMDE_K1lNTTxxNwH-wm28v8_f6CPeZglxFl7MDvYYX7xn_4_pg6m3qOvY60Bri3DQ"
+    },
+    {
+      "seq": 96,
+      "mark_hash": "399172f0fa35f71371c81177cfb523a164df2db0413246b88daa54b3ffb795c0",
+      "prev_hash": "f4c0801e4b984fcc66dea24997f6c7bafadaeb46f94dfd5830530fadf88a5c0f",
+      "created_at": 1792458452452,
+      "signature": "Ke1TK1orQWNdDcszF_nL4ZUQ3r4hQtoDCdsC7siV0XIODNr-2w4LZ_RWgOE29LTQRK-UqjVtj8WsXIFkyL8aBQ"
     }
   ],
   "archived_copies": [
+    {
+      "day": "2026-10-20",
+      "up_to_seq": 94,
+      "url": "https://web.archive.org/web/20261020000824/https://osmarks.com/log"
+    },
     {
       "day": "2026-10-19",
       "up_to_seq": 82,

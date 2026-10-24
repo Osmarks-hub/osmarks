@@ -1215,6 +1215,11 @@
   ],
   "archived_copies": [
     {
+      "day": "2026-10-24",
+      "up_to_seq": 173,
+      "url": "https://web.archive.org/web/20261024000740/https://osmarks.com/log"
+    },
+    {
       "day": "2026-10-23",
       "up_to_seq": 172,
       "url": "https://web.archive.org/web/20261023000803/https://osmarks.com/log"

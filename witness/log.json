@@ -1253,9 +1253,21 @@
       "prev_hash": "d6026499a992f4cc02c6e33844a9aca3d40e1f5a9dbb04997aab559e6853e14c",
       "created_at": 1793254050978,
       "signature": "CmVDSeGqhauU2ZAFLS23uT4Phh1fXkWvNvn15Cr_aMLvNUqN1d59jPNXoXK-bRcUA1eC7OwM8mQGJmdptWRCCw"
+    },
+    {
+      "seq": 180,
+      "mark_hash": "e3692c18420ce879ec25bd383e1a4540896ca1e0e005525e3681db02a6ffe2f7",
+      "prev_hash": "07f880b3a3dcee797f2174ae0444bcd43970e1bfe051f21e930faac8b327e96f",
+      "created_at": 1793358453819,
+      "signature": "AXsVrfYAMw62gOIvJberpeMOPiLloWx1_oilduGlpDwqyxki72A72d2KllPhddy1DiT3DUVc3cvb535XKexaCg"
     }
   ],
   "archived_copies": [
+    {
+      "day": "2026-10-31",
+      "up_to_seq": 180,
+      "url": "https://web.archive.org/web/20261031050827/https://osmarks.com/records"
+    },
     {
       "day": "2026-10-30",
       "up_to_seq": 179,

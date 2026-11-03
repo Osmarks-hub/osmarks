@@ -1267,9 +1267,42 @@
       "prev_hash": "e3692c18420ce879ec25bd383e1a4540896ca1e0e005525e3681db02a6ffe2f7",
       "created_at": 1793567253742,
       "signature": "HG6ZG1jvly2aFuTl6YH7650vfMU3sAGwo6JiLhP4T-UrStxLCruOlT2orWQ-04pFPehYrLDmjjoE7F2gGlSCCg"
+    },
+    {
+      "seq": 182,
+      "mark_hash": "e850bb4f4baeb1945922b7695fde76c3f245447a63e2a7790f6520366ea5088c",
+      "prev_hash": "7e3c22757d0705dc0f0015c1eca3512b42d006faad8c83139f4ce88a9caa95bc",
+      "created_at": 1793671656297,
+      "signature": "q4UURsjOZ-fw1zrTZEk-bfLrjIMq7dVb8NfdYS7SxlZ1A8YOmszLs1RRlRVBnyzFf3NzRDubxHtoqLiY3KJ_CA"
+    },
+    {
+      "seq": 183,
+      "mark_hash": "efc3438d401857c9fec886ff811355be190afc0f21b222f13668ace73ae63bd1",
+      "prev_hash": "e850bb4f4baeb1945922b7695fde76c3f245447a63e2a7790f6520366ea5088c",
+      "created_at": 1793675252020,
+      "signature": "tnmAfi3NGw3Jes6RWwdEdjKXUaU64aTMJTboDmHvG_ReB1CTvgMDHrKcC5Qh7fxM4b3Ps12uqhqgg2F24NY5Cw"
+    },
+    {
+      "seq": 184,
+      "mark_hash": "c5a9b5a89b46cb23dd6388046e22ab39178aff8ab21c5d9a5d6315d9710b6deb",
+      "prev_hash": "efc3438d401857c9fec886ff811355be190afc0f21b222f13668ace73ae63bd1",
+      "created_at": 1793693254753,
+      "signature": "94ZP7XlSUddwevlY-bhEJazya8-1XLdTIqE5XJYqBhhaJop7eM6M2jqQ7bxFQFu_oqQOj_pmoxTNcFRrIGJ8BA"
+    },
+    {
+      "seq": 185,
+      "mark_hash": "b22d92216d6aad28e0572318704e7ffca0ecebeff439e70338a39f6e8a36a215",
+      "prev_hash": "c5a9b5a89b46cb23dd6388046e22ab39178aff8ab21c5d9a5d6315d9710b6deb",
+      "created_at": 1793693316264,
+      "signature": "YQ1gDt-TRZv4663sBjS8C7TZOa1C38zHJDPPu9ktNdwWSNCF3WSSllp-TCgQLW66VJp5ll09te10iBIvU3vrBw"
     }
   ],
   "archived_copies": [
+    {
+      "day": "2026-11-03",
+      "up_to_seq": 181,
+      "url": "https://web.archive.org/web/20261101000734/https://osmarks.com/records"
+    },
     {
       "day": "2026-11-02",
       "up_to_seq": 181,

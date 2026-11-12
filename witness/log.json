@@ -1358,9 +1358,42 @@
       "prev_hash": "820d79ba3f9a2a1f6ce3cd3ab8c5316cac7f5b6fb209d1602efad57544879b10",
       "created_at": 1794294471728,
       "signature": "9Tdi-4AIpYxytRgFTjMeRs_93GnOlONQLf2Z4K2qjLqfYN2r6Bw4kau1MGEwI0Hdh7dIQ1pU0uYdabTEHGveCA"
+    },
+    {
+      "seq": 195,
+      "mark_hash": "98a862af6b4ea13e2a00dc855a80ab4ee9629edcaf8aa15f4592270f21a87921",
+      "prev_hash": "77cd7d6a8bb502e7637a079c0e1089f4d4775b99ebc6b559ebc7b9c551902d65",
+      "created_at": 1794427650944,
+      "signature": "Uva9Woy3K4ioLaX_V5efnLIPkuAgL9m0WyFJRSHcNxefUnXCq9qgtJVjMDnCLfuLqfg6jaXwGtFiOrEAcJopBg"
+    },
+    {
+      "seq": 196,
+      "mark_hash": "b00a3f9db178e07c9d126b27c9d5bf8320648656244963940b629d6bd2c36972",
+      "prev_hash": "98a862af6b4ea13e2a00dc855a80ab4ee9629edcaf8aa15f4592270f21a87921",
+      "created_at": 1794434851753,
+      "signature": "F_Efulvmi1uEvYnma8GwO_ZgljPP7Vq5S8ghAVCUr-Gzy7p6IqjMSPx7cqigfqvaGJ9LiWAqAH6b4s9gh_3jAQ"
+    },
+    {
+      "seq": 197,
+      "mark_hash": "34c9412d26f2b5a407982a45dc45015fb7881d58ddec6b251d4f6d815d2d8969",
+      "prev_hash": "b00a3f9db178e07c9d126b27c9d5bf8320648656244963940b629d6bd2c36972",
+      "created_at": 1794478050872,
+      "signature": "f9qdIgWm8ZwUHsg2lBcW1lnw66uea8t8iM0bfAelhSTg2Qjb8YU7cS11tvwH-aklKrruWcsgd5aiBPrFoDkTBg"
+    },
+    {
+      "seq": 198,
+      "mark_hash": "34a1a826f1a83f756ff9878e52d471d065090db59214b0e11dced3c5a1e9c126",
+      "prev_hash": "34c9412d26f2b5a407982a45dc45015fb7881d58ddec6b251d4f6d815d2d8969",
+      "created_at": 1794478070262,
+      "signature": "FctwLjca_r-JpeyKghpPZnEcdLSVNKhWMuxd-M0FLdEDHDFRiWVEpZKjV1GlrrCPCsRyUnYKXDpS6lfDFyuvAw"
     }
   ],
   "archived_copies": [
+    {
+      "day": "2026-11-12",
+      "up_to_seq": 196,
+      "url": "https://web.archive.org/web/20261110000733/https://osmarks.com/records"
+    },
     {
       "day": "2026-11-11",
       "up_to_seq": 194,

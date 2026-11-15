@@ -1414,9 +1414,28 @@
       "prev_hash": "612b315b70aeaf625cfd9232ebe94f8c29c8ebd1be3da9fe613205412d6ff81d",
       "created_at": 1794650853058,
       "signature": "SXwaOywpWyky9PNyl5DQOBA8IIIO2vlX82IHz4kb3FggiucDqp6pOam3vFkK12I6tHYqp07oe34qmUnK5c8oBQ"
+    },
+    {
+      "seq": 203,
+      "mark_hash": "a6e1cef5fbae2bde999638d1b02fab8a024f1b7fe46f0e8109e5691ee641a090",
+      "prev_hash": "621c7c36206ea0cc0975433ce6d11b92ae0a91b1bc0d5009bc3b9141fc934c7a",
+      "created_at": 1794665252819,
+      "signature": "hdxMTQJvf0h2FQlVQegpxjTJ15-g5ozuNfahq9dMDKp264JllpNcWhqADyqJvzLFOVpJhDtGuJpo-v0tL8dABA"
+    },
+    {
+      "seq": 204,
+      "mark_hash": "5c34a9c10d216166a7eaf6f52c7b83d942ca4624397d560ffe9c8b6173bd688d",
+      "prev_hash": "a6e1cef5fbae2bde999638d1b02fab8a024f1b7fe46f0e8109e5691ee641a090",
+      "created_at": 1794715652664,
+      "signature": "O8EJ7OnqSExuiEgk09FYsFzaAeiAsbMHTqd4TU-_K7s1tXpvAweiVhDZWFx9GZLI6br7p4dQWxXNyZhD40KWBw"
     }
   ],
   "archived_copies": [
+    {
+      "day": "2026-11-15",
+      "up_to_seq": 203,
+      "url": "https://web.archive.org/web/20261113000733/https://osmarks.com/records"
+    },
     {
       "day": "2026-11-14",
       "up_to_seq": 200,

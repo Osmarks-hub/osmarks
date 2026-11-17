@@ -1435,9 +1435,35 @@
       "prev_hash": "5c34a9c10d216166a7eaf6f52c7b83d942ca4624397d560ffe9c8b6173bd688d",
       "created_at": 1794766051954,
       "signature": "H5RydoLnAVoVL113e785KCWSIdCdLu3o01CnzwzHWrN8C6ZKdXV-N6uJ4zzoaQWm7sEksXF6J7v5bRGcxnzFBA"
+    },
+    {
+      "seq": 206,
+      "mark_hash": "5a53813f037865a170e4b1adf34427a88b74dccf2ec5d22aa8b04133634c8a92",
+      "prev_hash": "6e621d9d73c965d3128995039a5c1d12ddd5525107fcdbabbeb4ee33faed3406",
+      "created_at": 1794874052836,
+      "signature": "FFXBHJJlicVVqH--441GXguayjLZEKUUonkb657PPPf63hB_DTIziLIkKe49EdWj4t0-49NEgKMbhGF1SIv3Bg"
+    },
+    {
+      "seq": 207,
+      "mark_hash": "4d3a404cb4a2131aa9e11857998231ac178b7b40449a7b205dfb360510e84f85",
+      "prev_hash": "5a53813f037865a170e4b1adf34427a88b74dccf2ec5d22aa8b04133634c8a92",
+      "created_at": 1794874072122,
+      "signature": "2TjQq7SdzAO3SCxH-GMUO2KHAEiB0gK82tw3TS1c2RWUmctpJdeQW2NfihDbFVWsvDRYXdyZllCYmz7OEyFDCg"
+    },
+    {
+      "seq": 208,
+      "mark_hash": "6aa66dcda6e689ba181b9b355dc7739d521ed4d1e2fb108e01e8dc0635af77b9",
+      "prev_hash": "4d3a404cb4a2131aa9e11857998231ac178b7b40449a7b205dfb360510e84f85",
+      "created_at": 1794881255684,
+      "signature": "qKey27QGDk6040gmOJjO6GqyniVHuBh1iJCHfBSBOhFMiPiB44vdk0CIOzrlgi5iwiNwxkgk6mqOQQjsY4zCAw"
     }
   ],
   "archived_copies": [
+    {
+      "day": "2026-11-17",
+      "up_to_seq": 205,
+      "url": "https://web.archive.org/web/20261116000828/https://osmarks.com/records"
+    },
     {
       "day": "2026-11-16",
       "up_to_seq": 205,

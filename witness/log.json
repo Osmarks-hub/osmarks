@@ -1491,9 +1491,35 @@
       "prev_hash": "6a65c48d069b36d1713f38c7eab2402072d2ede3f7e3f601e56f0d8afd7df2d2",
       "created_at": 1794953251252,
       "signature": "bbvKffeKIRbewaxD7QPuiq3fkMd8v3kjmMxioqafxmG7DXJ-KLaaZV0cEcTipJrydWyfJtF2xOSuQG8hTK2TCQ"
+    },
+    {
+      "seq": 214,
+      "mark_hash": "2a566ba29f35c01448af2ec3779bf9bd41ebe0a9e6c4c597daaa6f9d22c74b5a",
+      "prev_hash": "582ec0d270b01aa750edcce1f8fe92ed938a4bd008113996c2d454b4a1246e07",
+      "created_at": 1795018052638,
+      "signature": "cRGiScArCIZ1hIOODbiiBMgeYyVauDqhVXG99Emn_YpwrQevJCzR6BsAgMuJKHpfAfnuNQUXd3skZI3lLr2wCg"
+    },
+    {
+      "seq": 215,
+      "mark_hash": "27e6661eaa08886a7008900eb3432a953a8a093f8970c8c2cab76d3d57d247eb",
+      "prev_hash": "2a566ba29f35c01448af2ec3779bf9bd41ebe0a9e6c4c597daaa6f9d22c74b5a",
+      "created_at": 1795025251671,
+      "signature": "7hVKnxS3dcmYl5Fl09anVKAKZ7lMD9h29_KA3yadOVc5vBkr3g-21_a26ynjnCJeZPLoqafUU7r259tkPf0LAg"
+    },
+    {
+      "seq": 216,
+      "mark_hash": "15a92504a0ff280109d48e83c4c5b293cbda38ce02ac436cdd6d99d33d11ca24",
+      "prev_hash": "27e6661eaa08886a7008900eb3432a953a8a093f8970c8c2cab76d3d57d247eb",
+      "created_at": 1795036051191,
+      "signature": "_4jTtbZDkCW_lwsvZUEC3KoTNYHD0xJRrit2NreP6MmeQj_tDdI7hq26UI63hDQ5lwsdCSIgeDRIUIMT36AnBQ"
     }
   ],
   "archived_copies": [
+    {
+      "day": "2026-11-19",
+      "up_to_seq": 216,
+      "url": "https://web.archive.org/web/20261117000734/https://osmarks.com/records"
+    },
     {
       "day": "2026-11-18",
       "up_to_seq": 213,
